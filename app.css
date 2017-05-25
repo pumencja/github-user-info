@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #37383a;
+}
+.basicInfo{
+  margin: 2vw auto 0 auto;
+  display: block;
+  width: 50vw;
+  min-width: 350px;
+  border: 3px solid #4f7cd6;
+  border-top-left-radius: 2em;
+  padding: 1vw;
+  background: #f1f1f1;
+}
+.basicInfo img{
+  float: right;
+  width: 15vw;
+ 
+  border-radius: 50%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  border: 3px solid silver;
+  background: white;
+}
+.basicInfo ul{
+  list-style-type: none;
+  display: inline-block;
+}
+.basicInfo ul li{
+  font-size: calc(12px + 1vw);
+  font-family: 'Roboto Condensed';
+}
+.repos{
+  margin: 0 auto;
+  width: 50vw;
+  min-width: 350px;
+  min-height: 100px;
+  border: 3px solid silver;
+  border-bottom-right-radius: 2em;
+  padding: 1vw;
+  background: #f1f1f1;
+}
+.repos h2{
+  font-size: calc(12px + 1vw);
+  font-weight: bold;
+  font-family: 'Roboto Condensed';
+  padding-left: 4vw;
+}
+.repos ol{
+  font-size: calc(12px + 0.5vw);
+  font-family: 'Roboto Condensed';
+  padding-left: 5vw;
+}
+.repos h3{
+  font-size: calc(10px + 0.5vw);
+  font-family: 'Roboto Condensed';
+  padding-left: 4vw;
+}
+
